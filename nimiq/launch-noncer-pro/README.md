@@ -1,5 +1,5 @@
 ## launch-noncer-pro
-This batch script can be used to automatically launch the Noncer Pro Nimiq GPU miner along side the monitor-noncer-pro tool (found at http://github.com/billygarrison/mining-tools/nimiq/monitor-noncer-pro).
+So far this is Windows-only. This batch script can be used to automatically launch the Noncer Pro Nimiq GPU miner along side the monitor-noncer-pro tool (found at http://github.com/billygarrison/mining-tools/nimiq/monitor-noncer-pro).
 
 ### Usage
 Edit windows_run.bat and make the following changes:
