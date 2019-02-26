@@ -26,5 +26,5 @@ You can now run the .bat file and it will launch Noncer Pro as well as monitor-n
 - Uncheck "Stop the task if it runs longer than"
 - Click OK to save the scheduled task
 
-### reboot.bat
+### Automatically rebooting your computer
 reboot.bat is a one-line batch file that just reboots your computer. This can be useful since Noncer Pro (like most miners) can crash after running for too long. You can use the Task Scheduler to schedule a task very similarly to the above instructions, except create your trigger to "Begin the task: On a schedule", check "Daily", and set it to however often you want your computer to rstart (I recommend ~3 days).
