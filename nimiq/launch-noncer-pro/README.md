@@ -28,9 +28,3 @@ You can now run the .bat file and it will launch Noncer Pro as well as monitor-n
 
 ### reboot.bat
 reboot.bat is a one-line batch file that just reboots your computer. This can be useful since Noncer Pro (like most miners) can crash after running for too long. You can use the Task Scheduler to schedule a task very similarly to the above instructions, except create your trigger to "Begin the task: On a schedule", check "Daily", and set it to however often you want your computer to rstart (I recommend ~3 days).
-
-SET UV_THREADPOOL_SIZE=32
-start cmd /k CALL C:/Users/Billy/Desktop/noncerpro-cuda-win64-2.0.0/noncerpro.exe --address="NQ05 PMG6 E64G BUCG 703E D38G 6H5F 34LB 6NAF" --threads=2
-timeout /t 1 /nobreak
-CALL python C:/Users/Billy/Desktop/monitor-noncer-pro/monitor_noncer_pro.py
-pause
