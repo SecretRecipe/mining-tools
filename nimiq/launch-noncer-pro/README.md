@@ -2,7 +2,7 @@
 This tool can be used to automatically launch the Noncer Pro Nimiq GPU miner along side the monitor-noncer-pro tool (found at http://github.com/billygarrison/mining-tools/nimiq/monitor-noncer-pro).
 
 ### Usage
-- Edit windows_run.bat and make the following changes:
+Edit windows_run.bat and make the following changes:
 - Line 1: Set your desired `UV_THREADPOOL_SIZE`
 - Line 2: Set the full path to your Noncer Pro .exe file (e.g. C:/NoncerPro/noncerpro.exe)
 - Line 2: Set your Nimiq address, threads, and add --batch if you desire
