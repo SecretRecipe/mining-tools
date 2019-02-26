@@ -1,4 +1,4 @@
-## monitor-noncer-pro
+# monitor-noncer-pro
 This tool uses the Noncer Pro API to monitor the status of the miner. If the hashrate is 0 for 60+ seconds, or if the miner can't be reached, an email alert is sent.
 
 ### Usage
