@@ -6,4 +6,4 @@ tmux kill-session -t eth
 
 sleep 2s
 
-tmux new -s eth 'cd /home/billy/Desktop/FinMiner-linux-2.2.5/ && ./finminer'
+tmux new -s eth 'cd <path_to_finminer_directory> && ./finminer'
