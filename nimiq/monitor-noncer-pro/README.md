@@ -10,5 +10,5 @@ This tool uses the Noncer Pro API to monitor the status of the miner. If the has
 - In the gmail account for `gmailAddress` be sure to allow less secure apps: https://devanswers.co/allow-less-secure-apps-access-gmail-account/
 - In the email account for `sendToAddress`, you may need to add `gmailAddress` to your contacts to avoid getting marked as spam
 
-### TODO
+### Todo
 - Get user to enter password instead of hard-coding
