@@ -1,5 +1,5 @@
 # monitor-noncer-pro
-This tool uses the Noncer Pro API to monitor the status of the miner. If the hashrate is 0 for 60+ seconds, or if the miner can't be reached, an email alert is sent.
+This Python program uses the Noncer Pro API to monitor the status of the miner. If the hashrate is 0 for 60+ seconds, or if the miner can't be reached, an email alert is sent.
 
 ### Usage
 - Make sure to have Python installed. The only dependency that isn't built in is `requests`, install using `pip install requests`
